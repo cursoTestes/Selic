@@ -58,6 +58,18 @@ public class CalculadoraComissaoUnitTest {
 		
 	}
 
+	@Test
+	public void test_Calcular_Comissao_No_Limite_Venda_10001_Espera_600_06() {
+		double valorVenda = 10001;
+		double valorEsperado = 600.06;
+		
+		Calculadora calculadora = new Calculadora();
+		
+		double valorRetornado = calculadora.calcularComissao(valorVenda);
+		
+		assertEquals(valorEsperado, valorRetornado, 0);
+		
+	}
 	
 	@Test
 	public void test_Calcular_Comissao_Sem_Prejuizo_Venda_55_59_Espera_2_77() {
