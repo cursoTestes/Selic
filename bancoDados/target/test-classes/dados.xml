@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<dataset>
+
+	<vendedor id="1" nome="John Doe" />
+	<vendedor id="2" nome="Felippe" />
+	<vendedor id="3" nome="Rodrigo" />
+	<vendedor id="5" nome="Magno" />
+	<vendedor id="6" nome="Arlindo Cruz" />
+	<vendedor id="7" nome="Toledo" />
+
+
+<venda id="1" valor="100" dataVenda="2011-02-03" />
+
+<venda id="2" valor="300" dataVenda="2011-05-10" />
+<venda id="3" valor="200" dataVenda="2011-07-20" />
+<venda id="4" valor="150" dataVenda="2010-05-10" />
+<venda id="5" valor="50" dataVenda="2010-07-20" />
+<venda id="6" valor="400" dataVenda="2010-07-20" />
+<venda id="7" valor="400" dataVenda="2011-07-20" />
+<venda id="8" valor="100" dataVenda="2011-07-20" />
+<venda id="9" valor="900" dataVenda="2009-07-20" />
+
+	
+<vendavendedor id="1" vendedor_id="2" venda_id="1" valorParticipacao="100"/>
+<vendavendedor id="2" vendedor_id="3" venda_id="2" valorParticipacao="300"/>
+<vendavendedor id="3" vendedor_id="3" venda_id="3" valorParticipacao="200"/>
+<vendavendedor id="4" vendedor_id="2" venda_id="4" valorParticipacao="150"/>
+<vendavendedor id="5" vendedor_id="2" venda_id="5" valorParticipacao="50"/>
+<vendavendedor id="6" vendedor_id="7" venda_id="6" valorParticipacao="200"/>
+<vendavendedor id="7" vendedor_id="5" venda_id="6" valorParticipacao="200"/>
+<vendavendedor id="8" vendedor_id="7" venda_id="7" valorParticipacao="200"/>
+<vendavendedor id="9" vendedor_id="5" venda_id="7" valorParticipacao="200"/>
+<vendavendedor id="10" vendedor_id="7" venda_id="8" valorParticipacao="100"/>
+<vendavendedor id="11" vendedor_id="7" venda_id="9" valorParticipacao="300"/>
+<vendavendedor id="12" vendedor_id="6" venda_id="9" valorParticipacao="300"/>
+<vendavendedor id="13" vendedor_id="1" venda_id="9" valorParticipacao="300"/>
+	
+</dataset>

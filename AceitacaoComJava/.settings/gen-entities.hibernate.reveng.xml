@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+<table-filter match-name="FalhaLogin" match-schema="dbo" match-catalog="dojoJava"></table-filter>
+<table-filter match-name="SucessoLogin" match-schema="dbo" match-catalog="dojoJava"></table-filter>
+<table-filter match-name="usuario" match-schema="dbo" match-catalog="dojoJava"></table-filter>
+</hibernate-reverse-engineering>
